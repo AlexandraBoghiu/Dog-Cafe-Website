@@ -1,4 +1,4 @@
-# Tehnici-Web
+# Dog-Cafe-Website
 
   HTMl CSS:
    - [x] HTML tags
