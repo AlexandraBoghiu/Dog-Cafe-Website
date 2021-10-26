@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html lang="ro">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/80524d9e6d.js" crossorigin="anonymous"></script>
+    <meta charset="utf-8" />
+
+    <title>Dog Café - Adoptie</title>
+</head>
+
+<body>
+
+    <header>
+
+    </header>
+    <nav class="nav-wrapper">
+        <ul class="left-side">
+            <li class="nav-link-wrapper">
+                <a href="pagina0.html"> <b><i class="fas fa-home"></i>Acasă</b></a>
+            </li>
+            <li class="nav-link-wrapper">
+                <a href="adopta.html"> <b><i class="fas fa-dog"></i>Adoptă</b></a>
+            </li>
+            <li class="nav-link-wrapper" id="order">
+                <a href="meniu.html"> <b><i class="fas fa-coffee"></i> Meniu</b></a>
+            </li>
+            <li class="nav-link-wrapper">
+                <a href="regulament.html"> <b><i class="fas fa-exclamation-circle"></i> Regulament</b></a>
+            </li>
+            <li class="nav-link-wrapper">
+                <a href="#about">  <b><i class="fas fa-users"></i>Despre Noi</b></a>
+                <ul>
+                    <li><a href="faq.html">  <b><i class="fas fa-question-circle"></i>FAQ</b></a></li>
+                    <li><a href="contact.html"> <b><i class="fas fa-address-card"></i>>Contact</b></a></li>
+                </ul>
+            </li>
+            <li class="nav-link-wrapper" id="order">
+                <a href="evenimente.html"> <b><i class="fas fa-tv"></i> Evenimente</b></a>
+              </li>
+        </ul>
+
+        <ul class="right-side">
+            <li class="nav-link-wrapper">
+                <a href="pagina0.html">
+                    <div class="bg-text2">Dog Café</div>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="bgimg-11"></div>
+
+    <div style=" text-align:center; background:rgba(0, 0, 0, 0.603); width: 100%;">
+        <div
+            style="color: rgba(0, 0, 0, 0.541);background-color:rgba(0, 0, 0, 0.822); color:white;text-align:center;padding:50px 80px;text-align: justify;">
+            <p>
+
+            <h1 style="font-size:50px; text-align : center">Adopție</h1>
+            <div class="container">
+                <form  onsubmit="validate()" method ="get">
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="fname" style="color: black;">Nume</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="fname" name="firstname" placeholder="Numele dvs..." required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="lname" style="color: black;">Prenume</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="lname" name="lastname" placeholder="Prenumele dvs..." required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="fname" style="color: black;">Număr de telefon</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="phone" name="firstname" placeholder="Numărul de telefon..." required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="dog" style="color: black;">Câine</label>
+                        </div>
+                        <div class="col-75">
+                            <select id="dog" name="dog">
+                                <option value="cookie">Cookie</option>
+                                <option value="riley">Riley</option>
+                                <option value="lucas">Lucas</option>
+                                <option value="buster">Buster</option>
+                                <option value="woofer">Woofer</option>
+                                <option value="hula">Hula</option>
+                            </select>
+                        </div>
+                    </div>
+                    <p>
+                    </p>
+                    <div class="row">
+                       <input type="submit" value="Submit" > 
+                    </div>
+                </form>
+            </div>
+            </p>
+        </div>
+
+        <footer>
+            <p class="scrisfooter"> Locație: Str. Academiei nr.14, 010014 București; Copyright &copy; 2021 Dog Café.
+            </p>
+        </footer>
+</body>
+<script type="text/javascript" src="adoptiejs.js"></script>
+<script type="text/javascript" src="alljs.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</html>
